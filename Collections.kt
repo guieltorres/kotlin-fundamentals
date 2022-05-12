@@ -58,7 +58,9 @@ fun main(){
     println(person["Jessy"])
 
 //  Can only have one key
-    person["Jessy"] = 20
+    person["Jessy"] = 20  //overide the value
+
+    person.putIfAbsent("Jessy", 5) // if exists the key dont override the value
 
 //  removing with key
     person.remove("Jangela")
