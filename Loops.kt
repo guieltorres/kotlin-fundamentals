@@ -9,7 +9,7 @@ fun oneToTen(){
 //while
 fun tenToOne(){
     var x = 10
-    while(x >- 0){
+    while(x >= 0){
         println(x)
         x--
     }
